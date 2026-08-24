@@ -957,3 +957,55 @@ footer strong {
         min-height: auto;
     }
 }
+
+.recognition-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background: #1877f2;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.recognition-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Music & Performing Arts */
+
+.arts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.arts-grid .music-card {
+    height: 100%;
+}
+
+.media-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.media-links .recognition-btn {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+
+    .arts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .media-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
