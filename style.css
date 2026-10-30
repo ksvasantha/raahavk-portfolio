@@ -1009,3 +1009,10 @@ footer strong {
         align-items: flex-start;
     }
 }
+
+/* ROAR Magazine feature */
+.media-feature { margin-top: 24px; padding: 20px 22px; border: 1px solid var(--border); border-left: 4px solid var(--teal); border-radius: 12px; background: var(--light); }
+.media-feature h4 { margin: 0 0 8px; color: var(--navy); font-size: 1.08rem; }
+.media-feature p { margin: 0 0 14px; color: var(--text); }
+.media-feature-link { display: inline-block; color: var(--blue); font-weight: 750; text-decoration: underline; text-underline-offset: 3px; }
+.media-feature-link:hover, .media-feature-link:focus-visible { color: var(--navy-dark); }
